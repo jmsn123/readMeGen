@@ -1,0 +1,23 @@
+{
+  "name": "readmegen",
+  "version": "1.0.0",
+  "description": "## Read ME Gen To make Read MEs :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmsn123/readMeGen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmsn123/readMeGen/issues"
+  },
+  "homepage": "https://github.com/jmsn123/readMeGen#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
