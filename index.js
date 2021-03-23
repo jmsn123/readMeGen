@@ -2,7 +2,6 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const fetch = require('node-fetch');
 const genMarkUp = require("./genMarkup");
-const markup = require("./genMarkup")
 
 
 const post = async(user) => {
