@@ -1,6 +1,8 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const fetch = require('node-fetch');
+const genMarkUp = require("./genMarkup");
+const markup = require("./genMarkup")
 
 
 const post = async(user) => {
@@ -58,7 +60,7 @@ const init = async() => {
         // post(response).then(data => {
         //     console.log(data);
         // })
-        const readme = await fs.writeFileSync('./dist/README.md', "new content")
+        const readme = await fs.writeFileSync('./dist/README.md', genMarkUp(response))
 
     } catch (error) {
         console.log(error);
