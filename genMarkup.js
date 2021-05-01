@@ -16,7 +16,10 @@ const genMarkUp = (info, git) => {
 
 ## Installation
         clone from git clone then run npm i && npm start 
-## Usage
+## Usage![Badge for GitHub](https://img.shields.io/github/languages/top/${
+    info.user
+  }/${info.repoName}?style=flat&logo=appveyor) 
+
         💻 ${info.usage}
 ## License ${badge}
       
@@ -24,7 +27,8 @@ const genMarkUp = (info, git) => {
         👪 ${git.blog}
 ## Tests
         ✏️ ${info.test}
-## Can we Test? ✋ ${info.test === "yes" ? true : false}<br />
+## Can we Test? ✋ 
+        ${info.test === "yes" ? true : false}<br />
 
 `;
 };
